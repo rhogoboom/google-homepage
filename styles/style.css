@@ -1,0 +1,172 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #222;
+    background: #fff;
+}
+
+.whole-page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    box-sizing: border-box;
+    height: 60px;
+    flex-shrink: 0;
+    width: 100%;
+    align-self: flex-start;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.right-side {
+    float: right;
+}
+
+li {
+    float: left;
+}
+
+
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#sign-in-box {
+    background: #1a73e8;
+    border-radius: 4px;
+    color: white;
+}
+
+#sign-in-link:hover {
+    text-decoration: none;
+}
+
+#sign-in-box:hover  {
+    background: #2b7de9;;
+    box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);
+}
+
+.google-logo {
+    align-self: center;
+    display: flex;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    min-height: 92px;
+    max-height: 290px;
+
+}
+
+.search-box {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    width: 500px;
+    flex-shrink: 0;
+}
+
+.search-bar {
+    border-radius: 25px;
+    padding: 12px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    margin: 0 auto;
+    width: 500px;
+    max-width: 584px;
+    word-wrap: break-word;
+    
+}
+
+.center {
+    display: flex;
+}
+
+.two-button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.two-button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.whitespace{
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.bottom {
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 100%;
+    align-self: flex-end;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background: #f2f2f2;
+    color: rgb(34,34,34);
+}
+
+
+.bottom-left {
+    order: 1;
+    min-width: 30%;
+}
+.bottom-center {
+    order: 2;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.bottom-right {
+    order: 3;
+    min-width: 30%;
+}
+#sign-in-box {
+    background: #1a73e8;
+    border-radius: 4px;
+    color: white;
